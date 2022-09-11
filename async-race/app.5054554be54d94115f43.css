@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+*{margin:0;padding:0}html{font-size:20px}body{height:1025px;color:#fff;background-color:#fff;background-image:url(assets/a2c63995a989194771f9.jpg);background-size:cover}body.notScrollable{overflow:hidden}.roboto-12{font-family:Roboto;font-style:normal;font-weight:normal;font-size:12px;line-height:15px;letter-spacing:.4px;color:#fff}
+.button{text-align:center;box-sizing:border-box;box-shadow:0px 2px 7px rgba(0,0,0,.5);border-radius:3px;font-family:Roboto;font-style:normal;font-weight:500;font-size:14px;line-height:16px;letter-spacing:1.25px;text-transform:uppercase}
+.header{display:flex;align-items:center;width:100%;height:64px;background-color:rgba(33,150,243,.3);box-shadow:0px 4px 4px rgba(0,0,0,.25)}#to-garage{width:10%;height:60%;margin-right:3%;color:#2196f3;background:#f2f9fe;border:2px solid #f2f9fe;transition:.5s}#to-garage:hover{color:#fff;background:linear-gradient(lightgreen, #9198e5);border:2px solid linear-gradient(lightgreen, #9198e5)}#to-garage:active{color:#fff;background:#90ee90}#to-winners{width:10%;height:60%;margin-right:3%;color:#2196f3;background:#f2f9fe;border:2px solid #f2f9fe;transition:.5s}#to-winners:hover{color:#fff;background:linear-gradient(lightgreen, #9198e5);border:2px solid linear-gradient(lightgreen, #9198e5)}#to-winners:active{color:#fff;background:#90ee90}
+.logo{display:flex;flex-direction:column;justify-content:center;align-items:center;margin-left:2%;width:80px;height:40px;text-shadow:0px 4px 4px rgba(0,0,0,.25);font-family:Roboto;font-style:normal;font-weight:500;font-size:20px;line-height:20px;letter-spacing:1.25px}
+.nav-wrap{margin-left:10%;display:flex;gap:20px;list-style:none}
+.nav{width:100%}
+.footer{height:100px;display:flex;align-items:flex-end;font-size:10px}
+.main-wrap{display:flex;justify-content:center;align-items:center;margin-top:3%;width:80%;height:800px;background:rgba(255,255,255,.7);border-radius:5px}
+.h3-elem{font-family:Roboto;font-style:normal;font-weight:500;font-size:30px;line-height:30px;letter-spacing:.15px;color:#2196f3;text-transform:capitalize}.h5-elem{font-family:Roboto;font-style:italic;font-weight:500;font-size:20px;line-height:30px;letter-spacing:.15px;color:#2196f3;text-transform:capitalize}
+
+.car{display:flex;flex-direction:column;color:purple;border-bottom:2px solid #000}.car-controls{display:flex;gap:10px}.car-buttons{text-align:center;box-sizing:border-box;box-shadow:0px 2px 7px rgba(0,0,0,.5);border-radius:3px;font-family:Roboto;font-style:normal;font-weight:500;font-size:14px;line-height:16px;letter-spacing:1.25px;text-transform:uppercase;color:#2196f3;background:#f2f9fe;border:2px solid #f2f9fe;transition:.5s}.car-buttons:hover{color:#fff;background:linear-gradient(purple, #9198e5)}.car-buttons:active{color:#fff;background:#90ee90}
+.form-create{height:5%;display:flex;align-items:center;gap:10px}#create-button{width:10%;height:70%;margin-right:3%;color:#2196f3;background:#f2f9fe;border:2px solid #f2f9fe;transition:.5s}#create-button:hover{color:#fff;background:linear-gradient(lightgreen, #9198e5);border:2px solid linear-gradient(lightgreen, #9198e5)}#create-button:active{color:#fff;background:#90ee90}
+.form-update{height:5%;display:flex;align-items:center;gap:10px}#update-button{width:10%;height:70%;margin-right:3%;color:#2196f3;background:#f2f9fe;border:2px solid #f2f9fe;transition:.5s}#update-button:hover{color:#fff;background:linear-gradient(lightgreen, #9198e5);border:2px solid linear-gradient(lightgreen, #9198e5)}#update-button:active{color:#fff;background:#90ee90}
+.garage{height:100%;display:flex;flex-direction:column;gap:10px}#page-number{color:#2196f3}
+.main{width:92%;height:94%}
+.table{background-color:rgba(97,233,102,.5)}tr{text-align:center}
+
+.page{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;flex-wrap:wrap;width:100%;min-height:100%}
+.cover{position:absolute;top:0px;left:0px;width:100vw;height:100vh;background-color:rgba(0,0,0,.5);z-index:10}.hidden{display:none}
+.app{width:100%}
